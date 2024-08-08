@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "modules/*": ["src/modules/*"]
+    },
+    "module": "ESNext",
+    "target": "ESNext",
+    "types": ["vite/client"],
+    "moduleResolution": "node",
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
