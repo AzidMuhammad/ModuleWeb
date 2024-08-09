@@ -14,6 +14,12 @@ import MarginTab from '@/components/MarginTab.vue';
 import PaddingTab from '@/components/PaddingTab.vue';
 import SpaceTab from '@/components/SpaceTab.vue';
 import ColorTab from '@/components/ColorTab.vue';
+import IsolateTab from '@/components/IsolateTab.vue';
+import ObjectFitTab from '@/components/ObjectFitTab.vue';
+import ObjectPosTab from '@/components/ObjectPosTab.vue';
+import OverflowTab from '@/components/OverflowTab.vue';
+import OverscrollTab from '@/components/OverscrollTab.vue';
+import PositionTab from '@/components/PositionTab.vue';
 import PaypalButton from '@/components/PaypalButton.vue';
 export default (await import('vue')).defineComponent({
     name: 'HomeView',
@@ -34,7 +40,13 @@ export default (await import('vue')).defineComponent({
         PaddingTab,
         PaypalButton,
         SpaceTab,
-        ColorTab
+        ColorTab,
+        IsolateTab,
+        ObjectFitTab,
+        ObjectPosTab,
+        OverflowTab,
+        OverscrollTab,
+        PositionTab
     },
     data() {
         return {
@@ -98,6 +110,12 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#display"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#float"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#clear"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#isolate"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#object-fit"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#object-position"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#overflow"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#overscroll"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#position"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("divider left") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("title") }, href: ("#spacing"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#margin"), });
@@ -351,7 +369,7 @@ function __VLS_template() {
     const __VLS_98 = __VLS_97({}, ...__VLS_functionalComponentArgsRest(__VLS_97));
     ({}({}));
     const __VLS_101 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_96, __VLS_98));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("margin"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("isolate"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
     const __VLS_102 = {}
@@ -365,63 +383,147 @@ function __VLS_template() {
     const __VLS_104 = __VLS_103({}, ...__VLS_functionalComponentArgsRest(__VLS_103));
     ({}({}));
     const __VLS_107 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_102, __VLS_104));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("object-fit"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_108 = {}
+        .IsolateTab;
+    ({}.IsolateTab);
+    __VLS_components.IsolateTab;
+    // @ts-ignore
+    [IsolateTab,];
+    // @ts-ignore
+    const __VLS_109 = __VLS_asFunctionalComponent(__VLS_108, new __VLS_108({}));
+    const __VLS_110 = __VLS_109({}, ...__VLS_functionalComponentArgsRest(__VLS_109));
+    ({}({}));
+    const __VLS_113 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_108, __VLS_110));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("object-position"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_114 = {}
+        .ObjectFitTab;
+    ({}.ObjectFitTab);
+    __VLS_components.ObjectFitTab;
+    // @ts-ignore
+    [ObjectFitTab,];
+    // @ts-ignore
+    const __VLS_115 = __VLS_asFunctionalComponent(__VLS_114, new __VLS_114({}));
+    const __VLS_116 = __VLS_115({}, ...__VLS_functionalComponentArgsRest(__VLS_115));
+    ({}({}));
+    const __VLS_119 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_114, __VLS_116));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("overflow"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_120 = {}
+        .ObjectPosTab;
+    ({}.ObjectPosTab);
+    __VLS_components.ObjectPosTab;
+    // @ts-ignore
+    [ObjectPosTab,];
+    // @ts-ignore
+    const __VLS_121 = __VLS_asFunctionalComponent(__VLS_120, new __VLS_120({}));
+    const __VLS_122 = __VLS_121({}, ...__VLS_functionalComponentArgsRest(__VLS_121));
+    ({}({}));
+    const __VLS_125 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_120, __VLS_122));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("overscroll"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_126 = {}
+        .OverflowTab;
+    ({}.OverflowTab);
+    __VLS_components.OverflowTab;
+    // @ts-ignore
+    [OverflowTab,];
+    // @ts-ignore
+    const __VLS_127 = __VLS_asFunctionalComponent(__VLS_126, new __VLS_126({}));
+    const __VLS_128 = __VLS_127({}, ...__VLS_functionalComponentArgsRest(__VLS_127));
+    ({}({}));
+    const __VLS_131 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_126, __VLS_128));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("position"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_132 = {}
+        .OverscrollTab;
+    ({}.OverscrollTab);
+    __VLS_components.OverscrollTab;
+    // @ts-ignore
+    [OverscrollTab,];
+    // @ts-ignore
+    const __VLS_133 = __VLS_asFunctionalComponent(__VLS_132, new __VLS_132({}));
+    const __VLS_134 = __VLS_133({}, ...__VLS_functionalComponentArgsRest(__VLS_133));
+    ({}({}));
+    const __VLS_137 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_132, __VLS_134));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("margin"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_138 = {}
+        .PositionTab;
+    ({}.PositionTab);
+    __VLS_components.PositionTab;
+    // @ts-ignore
+    [PositionTab,];
+    // @ts-ignore
+    const __VLS_139 = __VLS_asFunctionalComponent(__VLS_138, new __VLS_138({}));
+    const __VLS_140 = __VLS_139({}, ...__VLS_functionalComponentArgsRest(__VLS_139));
+    ({}({}));
+    const __VLS_143 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_138, __VLS_140));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("padding"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.br, __VLS_intrinsicElements.br)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_108 = {}
+    const __VLS_144 = {}
         .MarginTab;
     ({}.MarginTab);
     __VLS_components.MarginTab;
     // @ts-ignore
     [MarginTab,];
     // @ts-ignore
-    const __VLS_109 = __VLS_asFunctionalComponent(__VLS_108, new __VLS_108({}));
-    const __VLS_110 = __VLS_109({}, ...__VLS_functionalComponentArgsRest(__VLS_109));
+    const __VLS_145 = __VLS_asFunctionalComponent(__VLS_144, new __VLS_144({}));
+    const __VLS_146 = __VLS_145({}, ...__VLS_functionalComponentArgsRest(__VLS_145));
     ({}({}));
-    const __VLS_113 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_108, __VLS_110));
+    const __VLS_149 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_144, __VLS_146));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("space-between"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_114 = {}
+    const __VLS_150 = {}
         .PaddingTab;
     ({}.PaddingTab);
     __VLS_components.PaddingTab;
     // @ts-ignore
     [PaddingTab,];
     // @ts-ignore
-    const __VLS_115 = __VLS_asFunctionalComponent(__VLS_114, new __VLS_114({}));
-    const __VLS_116 = __VLS_115({}, ...__VLS_functionalComponentArgsRest(__VLS_115));
+    const __VLS_151 = __VLS_asFunctionalComponent(__VLS_150, new __VLS_150({}));
+    const __VLS_152 = __VLS_151({}, ...__VLS_functionalComponentArgsRest(__VLS_151));
     ({}({}));
-    const __VLS_119 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_114, __VLS_116));
+    const __VLS_155 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_150, __VLS_152));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("color"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_120 = {}
+    const __VLS_156 = {}
         .SpaceTab;
     ({}.SpaceTab);
     __VLS_components.SpaceTab;
     // @ts-ignore
     [SpaceTab,];
     // @ts-ignore
-    const __VLS_121 = __VLS_asFunctionalComponent(__VLS_120, new __VLS_120({}));
-    const __VLS_122 = __VLS_121({}, ...__VLS_functionalComponentArgsRest(__VLS_121));
+    const __VLS_157 = __VLS_asFunctionalComponent(__VLS_156, new __VLS_156({}));
+    const __VLS_158 = __VLS_157({}, ...__VLS_functionalComponentArgsRest(__VLS_157));
     ({}({}));
-    const __VLS_125 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_120, __VLS_122));
+    const __VLS_161 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_156, __VLS_158));
     __VLS_elementAsFunction(__VLS_intrinsicElements.br, __VLS_intrinsicElements.br)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_126 = {}
+    const __VLS_162 = {}
         .ColorTab;
     ({}.ColorTab);
     __VLS_components.ColorTab;
     // @ts-ignore
     [ColorTab,];
     // @ts-ignore
-    const __VLS_127 = __VLS_asFunctionalComponent(__VLS_126, new __VLS_126({}));
-    const __VLS_128 = __VLS_127({}, ...__VLS_functionalComponentArgsRest(__VLS_127));
+    const __VLS_163 = __VLS_asFunctionalComponent(__VLS_162, new __VLS_162({}));
+    const __VLS_164 = __VLS_163({}, ...__VLS_functionalComponentArgsRest(__VLS_163));
     ({}({}));
-    const __VLS_131 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_126, __VLS_128));
+    const __VLS_167 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_162, __VLS_164));
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses['navbar'];
         __VLS_styleScopedClasses['clear'];
@@ -444,6 +546,12 @@ function __VLS_template() {
         __VLS_styleScopedClasses['divider'];
         __VLS_styleScopedClasses['left'];
         __VLS_styleScopedClasses['title'];
+        __VLS_styleScopedClasses['section'];
+        __VLS_styleScopedClasses['section'];
+        __VLS_styleScopedClasses['section'];
+        __VLS_styleScopedClasses['section'];
+        __VLS_styleScopedClasses['section'];
+        __VLS_styleScopedClasses['section'];
         __VLS_styleScopedClasses['section'];
         __VLS_styleScopedClasses['section'];
         __VLS_styleScopedClasses['section'];
@@ -489,7 +597,13 @@ function __VLS_template() {
         PaddingTab,
         PaypalButton,
         SpaceTab,
-        ColorTab
+        ColorTab,
+        IsolateTab,
+        ObjectFitTab,
+        ObjectPosTab,
+        OverflowTab,
+        OverscrollTab,
+        PositionTab
     };
     const __VLS_name = 'HomeView';
     let __VLS_internalComponent;

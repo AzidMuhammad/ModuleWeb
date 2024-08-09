@@ -35,6 +35,12 @@
           <a class="section" href="#display">Display</a>
           <a class="section" href="#float">Float</a>
           <a class="section" href="#clear">Clear</a>
+          <a class="section" href="#isolate">Isolate</a>
+          <a class="section" href="#object-fit">Object Fit</a>
+          <a class="section" href="#object-position">Object Position</a>
+          <a class="section" href="#overflow">Overflow</a>
+          <a class="section" href="#overscroll">Overscroll</a>
+          <a class="section" href="#position">Position</a>
           <div class="divider left"></div>
           <a class="title" href="#spacing">Spacing</a>
           <a class="section" href="#margin">Margin</a>
@@ -144,10 +150,34 @@
           </p>
           <h2>Float</h2>
           <FloatTab />
-          <p id="margin">
+          <p id="isolate">
           </p>
           <h2>Clear</h2>
           <ClearTab />
+          <p id="object-fit">
+          </p>
+          <h2>Isolate</h2>
+          <IsolateTab />
+          <p id="object-position">
+          </p>
+          <h2>Object Fit</h2>
+          <ObjectFitTab />
+          <p id="overflow">
+          </p>
+          <h2>Object Position</h2>
+          <ObjectPosTab />
+          <p id="overscroll">
+          </p>
+          <h2>Overflow</h2>
+          <OverflowTab />
+          <p id="position">
+          </p>
+          <h2>Overscroll</h2>
+          <OverscrollTab />
+          <p id="margin">
+          </p>
+          <h2>Position</h2>
+          <PositionTab />
           <p id="padding">
           </p>
           <br>
@@ -187,6 +217,12 @@ import MarginTab from '@/components/MarginTab.vue'
 import PaddingTab from '@/components/PaddingTab.vue'
 import SpaceTab from '@/components/SpaceTab.vue'
 import ColorTab from '@/components/ColorTab.vue'
+import IsolateTab from '@/components/IsolateTab.vue'
+import ObjectFitTab from '@/components/ObjectFitTab.vue'
+import ObjectPosTab from '@/components/ObjectPosTab.vue'
+import OverflowTab from '@/components/OverflowTab.vue'
+import OverscrollTab from '@/components/OverscrollTab.vue'
+import PositionTab from '@/components/PositionTab.vue'
 import PaypalButton from '@/components/PaypalButton.vue'
 export default {
   name: 'HomeView',
@@ -207,7 +243,13 @@ export default {
     PaddingTab,
     PaypalButton,
     SpaceTab,
-    ColorTab
+    ColorTab,
+    IsolateTab,
+    ObjectFitTab,
+    ObjectPosTab,
+    OverflowTab,
+    OverscrollTab,
+    PositionTab
   },
   data() {
     return {

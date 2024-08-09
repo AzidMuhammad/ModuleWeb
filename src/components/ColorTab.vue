@@ -57,7 +57,7 @@
     .palette-container {
       margin: 20px;
       max-height: 200px;
-      overflow-y: auto;
+      overflow-y: scroll;
       margin-left: -30px;
     }
 
