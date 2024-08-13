@@ -76,7 +76,7 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.img, __VLS_intrinsicElements.img)({ ...{ class: ("logo") }, src: ("@/assets/logo/logo.png"), });
     // @ts-ignore
     [isSidePanelVisible,];
-    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("right") }, href: ("https://github.com/ModuluxLabs"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("right") }, href: ("https://github.com/FuezLabs"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.img, __VLS_intrinsicElements.img)({ src: ("../assets/image/github.png"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ onClick: (__VLS_ctx.toggleSidePanel) }, ...{ class: ("hamburger") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.i, __VLS_intrinsicElements.i)({ ...{ class: ("fas fa-bars") }, });
@@ -116,6 +116,7 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#overflow"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#overscroll"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#position"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#inset"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("divider left") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("title") }, href: ("#spacing"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ ...{ class: ("section") }, href: ("#margin"), });
@@ -151,9 +152,9 @@ function __VLS_template() {
     // @ts-ignore
     [TermCard,];
     // @ts-ignore
-    const __VLS_7 = __VLS_asFunctionalComponent(__VLS_6, new __VLS_6({ text: ("npm install moduluxcss postcss postcss-cli"), }));
-    const __VLS_8 = __VLS_7({ text: ("npm install moduluxcss postcss postcss-cli"), }, ...__VLS_functionalComponentArgsRest(__VLS_7));
-    ({}({ text: ("npm install moduluxcss postcss postcss-cli"), }));
+    const __VLS_7 = __VLS_asFunctionalComponent(__VLS_6, new __VLS_6({ text: ("\u006e\u0070\u006d\u0020\u0069\u006e\u0073\u0074\u0061\u006c\u006c\u0020\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u002d\u0063\u006c\u0069\u000a\u000a\u006e\u0070\u0078\u0020\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0069\u006e\u0069\u0074"), }));
+    const __VLS_8 = __VLS_7({ text: ("\u006e\u0070\u006d\u0020\u0069\u006e\u0073\u0074\u0061\u006c\u006c\u0020\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u002d\u0063\u006c\u0069\u000a\u000a\u006e\u0070\u0078\u0020\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0069\u006e\u0069\u0074"), }, ...__VLS_functionalComponentArgsRest(__VLS_7));
+    ({}({ text: ("\u006e\u0070\u006d\u0020\u0069\u006e\u0073\u0074\u0061\u006c\u006c\u0020\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u002d\u0063\u006c\u0069\u000a\u000a\u006e\u0070\u0078\u0020\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0069\u006e\u0069\u0074"), }));
     const __VLS_11 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_6, __VLS_8));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
@@ -165,12 +166,11 @@ function __VLS_template() {
     // @ts-ignore
     [TermCard,];
     // @ts-ignore
-    const __VLS_13 = __VLS_asFunctionalComponent(__VLS_12, new __VLS_12({ text: ("\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0027\u0029\u005d\u000a\u007d\u003b"), }));
-    const __VLS_14 = __VLS_13({ text: ("\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0027\u0029\u005d\u000a\u007d\u003b"), }, ...__VLS_functionalComponentArgsRest(__VLS_13));
-    ({}({ text: ("\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0027\u0029\u005d\u000a\u007d\u003b"), }));
+    const __VLS_13 = __VLS_asFunctionalComponent(__VLS_12, new __VLS_12({ text: ("\u002f\u002a\u002a\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u002e\u0063\u006f\u006e\u0066\u0069\u0067\u002e\u0063\u006a\u0073\u0020\u002a\u002a\u002f\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u000a\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0027\u0029\u002c\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u0061\u0075\u0074\u006f\u0070\u0072\u0065\u0066\u0069\u0078\u0065\u0072\u0027\u0029\u000a\u0020\u0020\u0020\u0020\u005d\u000a\u007d\u003b"), }));
+    const __VLS_14 = __VLS_13({ text: ("\u002f\u002a\u002a\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u002e\u0063\u006f\u006e\u0066\u0069\u0067\u002e\u0063\u006a\u0073\u0020\u002a\u002a\u002f\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u000a\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0027\u0029\u002c\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u0061\u0075\u0074\u006f\u0070\u0072\u0065\u0066\u0069\u0078\u0065\u0072\u0027\u0029\u000a\u0020\u0020\u0020\u0020\u005d\u000a\u007d\u003b"), }, ...__VLS_functionalComponentArgsRest(__VLS_13));
+    ({}({ text: ("\u002f\u002a\u002a\u0020\u0070\u006f\u0073\u0074\u0063\u0073\u0073\u002e\u0063\u006f\u006e\u0066\u0069\u0067\u002e\u0063\u006a\u0073\u0020\u002a\u002a\u002f\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u000a\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0027\u0029\u002c\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0072\u0065\u0071\u0075\u0069\u0072\u0065\u0028\u0027\u0061\u0075\u0074\u006f\u0070\u0072\u0065\u0066\u0069\u0078\u0065\u0072\u0027\u0029\u000a\u0020\u0020\u0020\u0020\u005d\u000a\u007d\u003b"), }));
     const __VLS_17 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_12, __VLS_14));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
+    __VLS_elementAsFunction(__VLS_intrinsicElements.br, __VLS_intrinsicElements.br)({});
     // @ts-ignore
     const __VLS_18 = {}
         .TermCard;
@@ -179,9 +179,9 @@ function __VLS_template() {
     // @ts-ignore
     [TermCard,];
     // @ts-ignore
-    const __VLS_19 = __VLS_asFunctionalComponent(__VLS_18, new __VLS_18({ text: ("\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u0062\u0061\u0073\u0065\u003b\u000a\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u006c\u0061\u0079\u006f\u0075\u0074\u003b\u000a\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u0075\u0074\u0069\u006c\u0069\u0074\u0069\u0065\u0073\u003b"), }));
-    const __VLS_20 = __VLS_19({ text: ("\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u0062\u0061\u0073\u0065\u003b\u000a\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u006c\u0061\u0079\u006f\u0075\u0074\u003b\u000a\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u0075\u0074\u0069\u006c\u0069\u0074\u0069\u0065\u0073\u003b"), }, ...__VLS_functionalComponentArgsRest(__VLS_19));
-    ({}({ text: ("\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u0062\u0061\u0073\u0065\u003b\u000a\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u006c\u0061\u0079\u006f\u0075\u0074\u003b\u000a\u0040\u006d\u006f\u0064\u0075\u006c\u0075\u0078\u0063\u0073\u0073\u0020\u0075\u0074\u0069\u006c\u0069\u0074\u0069\u0065\u0073\u003b"), }));
+    const __VLS_19 = __VLS_asFunctionalComponent(__VLS_18, new __VLS_18({ text: ("\u002f\u002a\u002a\u0020\u0066\u0075\u0065\u007a\u002e\u0063\u006f\u006e\u0066\u0069\u0067\u002e\u006a\u0073\u0020\u002a\u002a\u002f\u000a\u000a\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0074\u0068\u0065\u006d\u0065\u003a\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0065\u0078\u0074\u0065\u006e\u0064\u003a\u0020\u007b\u000a\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u007d\u000a\u0020\u0020\u0020\u0020\u007d\u002c\u000a\u0020\u0020\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u000a\u000a\u0020\u0020\u0020\u0020\u005d\u000a\u007d\u003b"), }));
+    const __VLS_20 = __VLS_19({ text: ("\u002f\u002a\u002a\u0020\u0066\u0075\u0065\u007a\u002e\u0063\u006f\u006e\u0066\u0069\u0067\u002e\u006a\u0073\u0020\u002a\u002a\u002f\u000a\u000a\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0074\u0068\u0065\u006d\u0065\u003a\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0065\u0078\u0074\u0065\u006e\u0064\u003a\u0020\u007b\u000a\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u007d\u000a\u0020\u0020\u0020\u0020\u007d\u002c\u000a\u0020\u0020\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u000a\u000a\u0020\u0020\u0020\u0020\u005d\u000a\u007d\u003b"), }, ...__VLS_functionalComponentArgsRest(__VLS_19));
+    ({}({ text: ("\u002f\u002a\u002a\u0020\u0066\u0075\u0065\u007a\u002e\u0063\u006f\u006e\u0066\u0069\u0067\u002e\u006a\u0073\u0020\u002a\u002a\u002f\u000a\u000a\u006d\u006f\u0064\u0075\u006c\u0065\u002e\u0065\u0078\u0070\u006f\u0072\u0074\u0073\u0020\u003d\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0074\u0068\u0065\u006d\u0065\u003a\u0020\u007b\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0065\u0078\u0074\u0065\u006e\u0064\u003a\u0020\u007b\u000a\u000a\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u007d\u000a\u0020\u0020\u0020\u0020\u007d\u002c\u000a\u0020\u0020\u0020\u0020\u0070\u006c\u0075\u0067\u0069\u006e\u0073\u003a\u0020\u005b\u000a\u000a\u0020\u0020\u0020\u0020\u005d\u000a\u007d\u003b"), }));
     const __VLS_23 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_18, __VLS_20));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
@@ -193,9 +193,9 @@ function __VLS_template() {
     // @ts-ignore
     [TermCard,];
     // @ts-ignore
-    const __VLS_25 = __VLS_asFunctionalComponent(__VLS_24, new __VLS_24({ text: ("npx postcss src/assets/index.css -o src/assets/modulux.css"), }));
-    const __VLS_26 = __VLS_25({ text: ("npx postcss src/assets/index.css -o src/assets/modulux.css"), }, ...__VLS_functionalComponentArgsRest(__VLS_25));
-    ({}({ text: ("npx postcss src/assets/index.css -o src/assets/modulux.css"), }));
+    const __VLS_25 = __VLS_asFunctionalComponent(__VLS_24, new __VLS_24({ text: ("\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0062\u0061\u0073\u0065\u003b\u000a\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u006c\u0061\u0079\u006f\u0075\u0074\u003b\u000a\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0075\u0074\u0069\u006c\u0069\u0074\u0069\u0065\u0073\u003b"), }));
+    const __VLS_26 = __VLS_25({ text: ("\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0062\u0061\u0073\u0065\u003b\u000a\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u006c\u0061\u0079\u006f\u0075\u0074\u003b\u000a\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0075\u0074\u0069\u006c\u0069\u0074\u0069\u0065\u0073\u003b"), }, ...__VLS_functionalComponentArgsRest(__VLS_25));
+    ({}({ text: ("\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0062\u0061\u0073\u0065\u003b\u000a\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u006c\u0061\u0079\u006f\u0075\u0074\u003b\u000a\u0040\u0066\u0075\u0065\u007a\u0063\u0073\u0073\u0020\u0075\u0074\u0069\u006c\u0069\u0074\u0069\u0065\u0073\u003b"), }));
     const __VLS_29 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_24, __VLS_26));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
@@ -207,14 +207,12 @@ function __VLS_template() {
     // @ts-ignore
     [TermCard,];
     // @ts-ignore
-    const __VLS_31 = __VLS_asFunctionalComponent(__VLS_30, new __VLS_30({ text: ("npm run dev"), }));
-    const __VLS_32 = __VLS_31({ text: ("npm run dev"), }, ...__VLS_functionalComponentArgsRest(__VLS_31));
-    ({}({ text: ("npm run dev"), }));
+    const __VLS_31 = __VLS_asFunctionalComponent(__VLS_30, new __VLS_30({ text: ("npx postcss src/assets/index.css -o src/assets/fuez.css"), }));
+    const __VLS_32 = __VLS_31({ text: ("npx postcss src/assets/index.css -o src/assets/fuez.css"), }, ...__VLS_functionalComponentArgsRest(__VLS_31));
+    ({}({ text: ("npx postcss src/assets/index.css -o src/assets/fuez.css"), }));
     const __VLS_35 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_30, __VLS_32));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("layout"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("aspect-ratio"), });
     // @ts-ignore
     const __VLS_36 = {}
         .TermCard;
@@ -223,307 +221,337 @@ function __VLS_template() {
     // @ts-ignore
     [TermCard,];
     // @ts-ignore
-    const __VLS_37 = __VLS_asFunctionalComponent(__VLS_36, new __VLS_36({ text: ("\u003c\u0021\u0064\u006f\u0063\u0074\u0079\u0070\u0065\u0020\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0065\u0061\u0064\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003d\u0027\u0055\u0054\u0046\u002d\u0038\u0027\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u006e\u0061\u006d\u0065\u003d\u0027\u0076\u0069\u0065\u0077\u0070\u006f\u0072\u0074\u0027\u0020\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u003d\u0027\u0077\u0069\u0064\u0074\u0068\u003d\u0064\u0065\u0076\u0069\u0063\u0065\u002d\u0077\u0069\u0064\u0074\u0068\u002c\u0020\u0069\u006e\u0069\u0074\u0069\u0061\u006c\u002d\u0073\u0063\u0061\u006c\u0065\u003d\u0031\u002e\u0030\u0027\u003e\u000a\u0020\u0020\u003c\u006c\u0069\u006e\u006b\u0020\u0068\u0072\u0065\u0066\u003d\u0027\u002f\u0073\u0072\u0063\u002f\u0073\u0074\u0079\u006c\u0065\u002e\u0063\u0073\u0073\u0027\u0020\u0072\u0065\u006c\u003d\u0027\u0073\u0074\u0079\u006c\u0065\u0073\u0068\u0065\u0065\u0074\u0027\u003e\u000a\u003c\u002f\u0068\u0065\u0061\u0064\u003e\u000a\u003c\u0062\u006f\u0064\u0079\u003e\u000a\u0020\u0020\u003c\u0068\u0031\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0074\u0065\u0078\u0074\u002d\u0076\u0062\u0069\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u0073\u0074\u0072\u006f\u006e\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0077\u0068\u0069\u0074\u0065\u0027\u003e\u000a\u0020\u0020\u0020\u0020\u0048\u0065\u006c\u006c\u006f\u0020\u0077\u006f\u0072\u006c\u0064\u0021\u000a\u0020\u0020\u003c\u002f\u0068\u0031\u003e\u000a\u003c\u002f\u0062\u006f\u0064\u0079\u003e\u000a\u003c\u002f\u0068\u0074\u006d\u006c\u003e"), }));
-    const __VLS_38 = __VLS_37({ text: ("\u003c\u0021\u0064\u006f\u0063\u0074\u0079\u0070\u0065\u0020\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0065\u0061\u0064\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003d\u0027\u0055\u0054\u0046\u002d\u0038\u0027\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u006e\u0061\u006d\u0065\u003d\u0027\u0076\u0069\u0065\u0077\u0070\u006f\u0072\u0074\u0027\u0020\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u003d\u0027\u0077\u0069\u0064\u0074\u0068\u003d\u0064\u0065\u0076\u0069\u0063\u0065\u002d\u0077\u0069\u0064\u0074\u0068\u002c\u0020\u0069\u006e\u0069\u0074\u0069\u0061\u006c\u002d\u0073\u0063\u0061\u006c\u0065\u003d\u0031\u002e\u0030\u0027\u003e\u000a\u0020\u0020\u003c\u006c\u0069\u006e\u006b\u0020\u0068\u0072\u0065\u0066\u003d\u0027\u002f\u0073\u0072\u0063\u002f\u0073\u0074\u0079\u006c\u0065\u002e\u0063\u0073\u0073\u0027\u0020\u0072\u0065\u006c\u003d\u0027\u0073\u0074\u0079\u006c\u0065\u0073\u0068\u0065\u0065\u0074\u0027\u003e\u000a\u003c\u002f\u0068\u0065\u0061\u0064\u003e\u000a\u003c\u0062\u006f\u0064\u0079\u003e\u000a\u0020\u0020\u003c\u0068\u0031\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0074\u0065\u0078\u0074\u002d\u0076\u0062\u0069\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u0073\u0074\u0072\u006f\u006e\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0077\u0068\u0069\u0074\u0065\u0027\u003e\u000a\u0020\u0020\u0020\u0020\u0048\u0065\u006c\u006c\u006f\u0020\u0077\u006f\u0072\u006c\u0064\u0021\u000a\u0020\u0020\u003c\u002f\u0068\u0031\u003e\u000a\u003c\u002f\u0062\u006f\u0064\u0079\u003e\u000a\u003c\u002f\u0068\u0074\u006d\u006c\u003e"), }, ...__VLS_functionalComponentArgsRest(__VLS_37));
-    ({}({ text: ("\u003c\u0021\u0064\u006f\u0063\u0074\u0079\u0070\u0065\u0020\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0065\u0061\u0064\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003d\u0027\u0055\u0054\u0046\u002d\u0038\u0027\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u006e\u0061\u006d\u0065\u003d\u0027\u0076\u0069\u0065\u0077\u0070\u006f\u0072\u0074\u0027\u0020\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u003d\u0027\u0077\u0069\u0064\u0074\u0068\u003d\u0064\u0065\u0076\u0069\u0063\u0065\u002d\u0077\u0069\u0064\u0074\u0068\u002c\u0020\u0069\u006e\u0069\u0074\u0069\u0061\u006c\u002d\u0073\u0063\u0061\u006c\u0065\u003d\u0031\u002e\u0030\u0027\u003e\u000a\u0020\u0020\u003c\u006c\u0069\u006e\u006b\u0020\u0068\u0072\u0065\u0066\u003d\u0027\u002f\u0073\u0072\u0063\u002f\u0073\u0074\u0079\u006c\u0065\u002e\u0063\u0073\u0073\u0027\u0020\u0072\u0065\u006c\u003d\u0027\u0073\u0074\u0079\u006c\u0065\u0073\u0068\u0065\u0065\u0074\u0027\u003e\u000a\u003c\u002f\u0068\u0065\u0061\u0064\u003e\u000a\u003c\u0062\u006f\u0064\u0079\u003e\u000a\u0020\u0020\u003c\u0068\u0031\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0074\u0065\u0078\u0074\u002d\u0076\u0062\u0069\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u0073\u0074\u0072\u006f\u006e\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0077\u0068\u0069\u0074\u0065\u0027\u003e\u000a\u0020\u0020\u0020\u0020\u0048\u0065\u006c\u006c\u006f\u0020\u0077\u006f\u0072\u006c\u0064\u0021\u000a\u0020\u0020\u003c\u002f\u0068\u0031\u003e\u000a\u003c\u002f\u0062\u006f\u0064\u0079\u003e\u000a\u003c\u002f\u0068\u0074\u006d\u006c\u003e"), }));
+    const __VLS_37 = __VLS_asFunctionalComponent(__VLS_36, new __VLS_36({ text: ("npm run dev"), }));
+    const __VLS_38 = __VLS_37({ text: ("npm run dev"), }, ...__VLS_functionalComponentArgsRest(__VLS_37));
+    ({}({ text: ("npm run dev"), }));
     const __VLS_41 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_36, __VLS_38));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("layout"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("aspect-ratio"), });
+    // @ts-ignore
+    const __VLS_42 = {}
+        .TermCard;
+    ({}.TermCard);
+    __VLS_components.TermCard;
+    // @ts-ignore
+    [TermCard,];
+    // @ts-ignore
+    const __VLS_43 = __VLS_asFunctionalComponent(__VLS_42, new __VLS_42({ text: ("\u003c\u0021\u0064\u006f\u0063\u0074\u0079\u0070\u0065\u0020\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0065\u0061\u0064\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003d\u0027\u0055\u0054\u0046\u002d\u0038\u0027\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u006e\u0061\u006d\u0065\u003d\u0027\u0076\u0069\u0065\u0077\u0070\u006f\u0072\u0074\u0027\u0020\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u003d\u0027\u0077\u0069\u0064\u0074\u0068\u003d\u0064\u0065\u0076\u0069\u0063\u0065\u002d\u0077\u0069\u0064\u0074\u0068\u002c\u0020\u0069\u006e\u0069\u0074\u0069\u0061\u006c\u002d\u0073\u0063\u0061\u006c\u0065\u003d\u0031\u002e\u0030\u0027\u003e\u000a\u0020\u0020\u003c\u006c\u0069\u006e\u006b\u0020\u0068\u0072\u0065\u0066\u003d\u0027\u002f\u0073\u0072\u0063\u002f\u0066\u0075\u0065\u007a\u002e\u0063\u0073\u0073\u0027\u0020\u0072\u0065\u006c\u003d\u0027\u0073\u0074\u0079\u006c\u0065\u0073\u0068\u0065\u0065\u0074\u0027\u003e\u000a\u003c\u002f\u0068\u0065\u0061\u0064\u003e\u000a\u003c\u0062\u006f\u0064\u0079\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0062\u0067\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0062\u006c\u0061\u0063\u006b\u0027\u003e\u000a\u0020\u0020\u003c\u0068\u0031\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0074\u0065\u0078\u0074\u002d\u0062\u0061\u0073\u0065\u0020\u0066\u006f\u006e\u0074\u002d\u0073\u0074\u0072\u006f\u006e\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0077\u0068\u0069\u0074\u0065\u0027\u003e\u000a\u0020\u0020\u0020\u0020\u0048\u0065\u006c\u006c\u006f\u0020\u0077\u006f\u0072\u006c\u0064\u0021\u000a\u0020\u0020\u003c\u002f\u0068\u0031\u003e\u000a\u003c\u002f\u0062\u006f\u0064\u0079\u003e\u000a\u003c\u002f\u0068\u0074\u006d\u006c\u003e"), }));
+    const __VLS_44 = __VLS_43({ text: ("\u003c\u0021\u0064\u006f\u0063\u0074\u0079\u0070\u0065\u0020\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0065\u0061\u0064\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003d\u0027\u0055\u0054\u0046\u002d\u0038\u0027\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u006e\u0061\u006d\u0065\u003d\u0027\u0076\u0069\u0065\u0077\u0070\u006f\u0072\u0074\u0027\u0020\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u003d\u0027\u0077\u0069\u0064\u0074\u0068\u003d\u0064\u0065\u0076\u0069\u0063\u0065\u002d\u0077\u0069\u0064\u0074\u0068\u002c\u0020\u0069\u006e\u0069\u0074\u0069\u0061\u006c\u002d\u0073\u0063\u0061\u006c\u0065\u003d\u0031\u002e\u0030\u0027\u003e\u000a\u0020\u0020\u003c\u006c\u0069\u006e\u006b\u0020\u0068\u0072\u0065\u0066\u003d\u0027\u002f\u0073\u0072\u0063\u002f\u0066\u0075\u0065\u007a\u002e\u0063\u0073\u0073\u0027\u0020\u0072\u0065\u006c\u003d\u0027\u0073\u0074\u0079\u006c\u0065\u0073\u0068\u0065\u0065\u0074\u0027\u003e\u000a\u003c\u002f\u0068\u0065\u0061\u0064\u003e\u000a\u003c\u0062\u006f\u0064\u0079\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0062\u0067\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0062\u006c\u0061\u0063\u006b\u0027\u003e\u000a\u0020\u0020\u003c\u0068\u0031\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0074\u0065\u0078\u0074\u002d\u0062\u0061\u0073\u0065\u0020\u0066\u006f\u006e\u0074\u002d\u0073\u0074\u0072\u006f\u006e\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0077\u0068\u0069\u0074\u0065\u0027\u003e\u000a\u0020\u0020\u0020\u0020\u0048\u0065\u006c\u006c\u006f\u0020\u0077\u006f\u0072\u006c\u0064\u0021\u000a\u0020\u0020\u003c\u002f\u0068\u0031\u003e\u000a\u003c\u002f\u0062\u006f\u0064\u0079\u003e\u000a\u003c\u002f\u0068\u0074\u006d\u006c\u003e"), }, ...__VLS_functionalComponentArgsRest(__VLS_43));
+    ({}({ text: ("\u003c\u0021\u0064\u006f\u0063\u0074\u0079\u0070\u0065\u0020\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0074\u006d\u006c\u003e\u000a\u003c\u0068\u0065\u0061\u0064\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u0063\u0068\u0061\u0072\u0073\u0065\u0074\u003d\u0027\u0055\u0054\u0046\u002d\u0038\u0027\u003e\u000a\u0020\u0020\u003c\u006d\u0065\u0074\u0061\u0020\u006e\u0061\u006d\u0065\u003d\u0027\u0076\u0069\u0065\u0077\u0070\u006f\u0072\u0074\u0027\u0020\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u003d\u0027\u0077\u0069\u0064\u0074\u0068\u003d\u0064\u0065\u0076\u0069\u0063\u0065\u002d\u0077\u0069\u0064\u0074\u0068\u002c\u0020\u0069\u006e\u0069\u0074\u0069\u0061\u006c\u002d\u0073\u0063\u0061\u006c\u0065\u003d\u0031\u002e\u0030\u0027\u003e\u000a\u0020\u0020\u003c\u006c\u0069\u006e\u006b\u0020\u0068\u0072\u0065\u0066\u003d\u0027\u002f\u0073\u0072\u0063\u002f\u0066\u0075\u0065\u007a\u002e\u0063\u0073\u0073\u0027\u0020\u0072\u0065\u006c\u003d\u0027\u0073\u0074\u0079\u006c\u0065\u0073\u0068\u0065\u0065\u0074\u0027\u003e\u000a\u003c\u002f\u0068\u0065\u0061\u0064\u003e\u000a\u003c\u0062\u006f\u0064\u0079\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0062\u0067\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0062\u006c\u0061\u0063\u006b\u0027\u003e\u000a\u0020\u0020\u003c\u0068\u0031\u0020\u0063\u006c\u0061\u0073\u0073\u003d\u0027\u0074\u0065\u0078\u0074\u002d\u0062\u0061\u0073\u0065\u0020\u0066\u006f\u006e\u0074\u002d\u0073\u0074\u0072\u006f\u006e\u0067\u0020\u0066\u006f\u006e\u0074\u002d\u006d\u006f\u0064\u0065\u0072\u006e\u002d\u0077\u0068\u0069\u0074\u0065\u0027\u003e\u000a\u0020\u0020\u0020\u0020\u0048\u0065\u006c\u006c\u006f\u0020\u0077\u006f\u0072\u006c\u0064\u0021\u000a\u0020\u0020\u003c\u002f\u0068\u0031\u003e\u000a\u003c\u002f\u0062\u006f\u0064\u0079\u003e\u000a\u003c\u002f\u0068\u0074\u006d\u006c\u003e"), }));
+    const __VLS_47 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_42, __VLS_44));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("container"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("divider") }, ...{ style: ({}) }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_42 = {}
+    const __VLS_48 = {}
         .LayoutTab;
     ({}.LayoutTab);
     __VLS_components.LayoutTab;
     // @ts-ignore
     [LayoutTab,];
     // @ts-ignore
-    const __VLS_43 = __VLS_asFunctionalComponent(__VLS_42, new __VLS_42({}));
-    const __VLS_44 = __VLS_43({}, ...__VLS_functionalComponentArgsRest(__VLS_43));
+    const __VLS_49 = __VLS_asFunctionalComponent(__VLS_48, new __VLS_48({}));
+    const __VLS_50 = __VLS_49({}, ...__VLS_functionalComponentArgsRest(__VLS_49));
     ({}({}));
-    const __VLS_47 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_42, __VLS_44));
+    const __VLS_53 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_48, __VLS_50));
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.br)({ id: ("columns"), });
     // @ts-ignore
-    const __VLS_48 = {}
+    const __VLS_54 = {}
         .ContainTab;
     ({}.ContainTab);
     __VLS_components.ContainTab;
     // @ts-ignore
     [ContainTab,];
     // @ts-ignore
-    const __VLS_49 = __VLS_asFunctionalComponent(__VLS_48, new __VLS_48({}));
-    const __VLS_50 = __VLS_49({}, ...__VLS_functionalComponentArgsRest(__VLS_49));
+    const __VLS_55 = __VLS_asFunctionalComponent(__VLS_54, new __VLS_54({}));
+    const __VLS_56 = __VLS_55({}, ...__VLS_functionalComponentArgsRest(__VLS_55));
     ({}({}));
-    const __VLS_53 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_48, __VLS_50));
+    const __VLS_59 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_54, __VLS_56));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("break-after"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_54 = {}
+    const __VLS_60 = {}
         .ColTab;
     ({}.ColTab);
     __VLS_components.ColTab;
     // @ts-ignore
     [ColTab,];
     // @ts-ignore
-    const __VLS_55 = __VLS_asFunctionalComponent(__VLS_54, new __VLS_54({}));
-    const __VLS_56 = __VLS_55({}, ...__VLS_functionalComponentArgsRest(__VLS_55));
+    const __VLS_61 = __VLS_asFunctionalComponent(__VLS_60, new __VLS_60({}));
+    const __VLS_62 = __VLS_61({}, ...__VLS_functionalComponentArgsRest(__VLS_61));
     ({}({}));
-    const __VLS_59 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_54, __VLS_56));
+    const __VLS_65 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_60, __VLS_62));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("break-before"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_60 = {}
+    const __VLS_66 = {}
         .BreakAfterTab;
     ({}.BreakAfterTab);
     __VLS_components.BreakAfterTab;
     // @ts-ignore
     [BreakAfterTab,];
     // @ts-ignore
-    const __VLS_61 = __VLS_asFunctionalComponent(__VLS_60, new __VLS_60({}));
-    const __VLS_62 = __VLS_61({}, ...__VLS_functionalComponentArgsRest(__VLS_61));
+    const __VLS_67 = __VLS_asFunctionalComponent(__VLS_66, new __VLS_66({}));
+    const __VLS_68 = __VLS_67({}, ...__VLS_functionalComponentArgsRest(__VLS_67));
     ({}({}));
-    const __VLS_65 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_60, __VLS_62));
+    const __VLS_71 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_66, __VLS_68));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("break-inside"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_66 = {}
+    const __VLS_72 = {}
         .BreakBeforeTab;
     ({}.BreakBeforeTab);
     __VLS_components.BreakBeforeTab;
     // @ts-ignore
     [BreakBeforeTab,];
     // @ts-ignore
-    const __VLS_67 = __VLS_asFunctionalComponent(__VLS_66, new __VLS_66({}));
-    const __VLS_68 = __VLS_67({}, ...__VLS_functionalComponentArgsRest(__VLS_67));
+    const __VLS_73 = __VLS_asFunctionalComponent(__VLS_72, new __VLS_72({}));
+    const __VLS_74 = __VLS_73({}, ...__VLS_functionalComponentArgsRest(__VLS_73));
     ({}({}));
-    const __VLS_71 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_66, __VLS_68));
+    const __VLS_77 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_72, __VLS_74));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("break-decoration"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_72 = {}
+    const __VLS_78 = {}
         .BreakInsideTab;
     ({}.BreakInsideTab);
     __VLS_components.BreakInsideTab;
     // @ts-ignore
     [BreakInsideTab,];
     // @ts-ignore
-    const __VLS_73 = __VLS_asFunctionalComponent(__VLS_72, new __VLS_72({}));
-    const __VLS_74 = __VLS_73({}, ...__VLS_functionalComponentArgsRest(__VLS_73));
+    const __VLS_79 = __VLS_asFunctionalComponent(__VLS_78, new __VLS_78({}));
+    const __VLS_80 = __VLS_79({}, ...__VLS_functionalComponentArgsRest(__VLS_79));
     ({}({}));
-    const __VLS_77 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_72, __VLS_74));
+    const __VLS_83 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_78, __VLS_80));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("box-sizing"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_78 = {}
+    const __VLS_84 = {}
         .BreakDecorationTab;
     ({}.BreakDecorationTab);
     __VLS_components.BreakDecorationTab;
     // @ts-ignore
     [BreakDecorationTab,];
     // @ts-ignore
-    const __VLS_79 = __VLS_asFunctionalComponent(__VLS_78, new __VLS_78({}));
-    const __VLS_80 = __VLS_79({}, ...__VLS_functionalComponentArgsRest(__VLS_79));
+    const __VLS_85 = __VLS_asFunctionalComponent(__VLS_84, new __VLS_84({}));
+    const __VLS_86 = __VLS_85({}, ...__VLS_functionalComponentArgsRest(__VLS_85));
     ({}({}));
-    const __VLS_83 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_78, __VLS_80));
+    const __VLS_89 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_84, __VLS_86));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("display"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_84 = {}
+    const __VLS_90 = {}
         .BoxSizingTab;
     ({}.BoxSizingTab);
     __VLS_components.BoxSizingTab;
     // @ts-ignore
     [BoxSizingTab,];
     // @ts-ignore
-    const __VLS_85 = __VLS_asFunctionalComponent(__VLS_84, new __VLS_84({}));
-    const __VLS_86 = __VLS_85({}, ...__VLS_functionalComponentArgsRest(__VLS_85));
+    const __VLS_91 = __VLS_asFunctionalComponent(__VLS_90, new __VLS_90({}));
+    const __VLS_92 = __VLS_91({}, ...__VLS_functionalComponentArgsRest(__VLS_91));
     ({}({}));
-    const __VLS_89 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_84, __VLS_86));
+    const __VLS_95 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_90, __VLS_92));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("float"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_90 = {}
+    const __VLS_96 = {}
         .DisplayTab;
     ({}.DisplayTab);
     __VLS_components.DisplayTab;
     // @ts-ignore
     [DisplayTab,];
     // @ts-ignore
-    const __VLS_91 = __VLS_asFunctionalComponent(__VLS_90, new __VLS_90({}));
-    const __VLS_92 = __VLS_91({}, ...__VLS_functionalComponentArgsRest(__VLS_91));
+    const __VLS_97 = __VLS_asFunctionalComponent(__VLS_96, new __VLS_96({}));
+    const __VLS_98 = __VLS_97({}, ...__VLS_functionalComponentArgsRest(__VLS_97));
     ({}({}));
-    const __VLS_95 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_90, __VLS_92));
+    const __VLS_101 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_96, __VLS_98));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("clear"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_96 = {}
+    const __VLS_102 = {}
         .FloatTab;
     ({}.FloatTab);
     __VLS_components.FloatTab;
     // @ts-ignore
     [FloatTab,];
     // @ts-ignore
-    const __VLS_97 = __VLS_asFunctionalComponent(__VLS_96, new __VLS_96({}));
-    const __VLS_98 = __VLS_97({}, ...__VLS_functionalComponentArgsRest(__VLS_97));
+    const __VLS_103 = __VLS_asFunctionalComponent(__VLS_102, new __VLS_102({}));
+    const __VLS_104 = __VLS_103({}, ...__VLS_functionalComponentArgsRest(__VLS_103));
     ({}({}));
-    const __VLS_101 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_96, __VLS_98));
+    const __VLS_107 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_102, __VLS_104));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("isolate"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_102 = {}
+    const __VLS_108 = {}
         .ClearTab;
     ({}.ClearTab);
     __VLS_components.ClearTab;
     // @ts-ignore
     [ClearTab,];
     // @ts-ignore
-    const __VLS_103 = __VLS_asFunctionalComponent(__VLS_102, new __VLS_102({}));
-    const __VLS_104 = __VLS_103({}, ...__VLS_functionalComponentArgsRest(__VLS_103));
+    const __VLS_109 = __VLS_asFunctionalComponent(__VLS_108, new __VLS_108({}));
+    const __VLS_110 = __VLS_109({}, ...__VLS_functionalComponentArgsRest(__VLS_109));
     ({}({}));
-    const __VLS_107 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_102, __VLS_104));
+    const __VLS_113 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_108, __VLS_110));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("object-fit"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_108 = {}
+    const __VLS_114 = {}
         .IsolateTab;
     ({}.IsolateTab);
     __VLS_components.IsolateTab;
     // @ts-ignore
     [IsolateTab,];
     // @ts-ignore
-    const __VLS_109 = __VLS_asFunctionalComponent(__VLS_108, new __VLS_108({}));
-    const __VLS_110 = __VLS_109({}, ...__VLS_functionalComponentArgsRest(__VLS_109));
+    const __VLS_115 = __VLS_asFunctionalComponent(__VLS_114, new __VLS_114({}));
+    const __VLS_116 = __VLS_115({}, ...__VLS_functionalComponentArgsRest(__VLS_115));
     ({}({}));
-    const __VLS_113 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_108, __VLS_110));
+    const __VLS_119 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_114, __VLS_116));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("object-position"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_114 = {}
+    const __VLS_120 = {}
         .ObjectFitTab;
     ({}.ObjectFitTab);
     __VLS_components.ObjectFitTab;
     // @ts-ignore
     [ObjectFitTab,];
     // @ts-ignore
-    const __VLS_115 = __VLS_asFunctionalComponent(__VLS_114, new __VLS_114({}));
-    const __VLS_116 = __VLS_115({}, ...__VLS_functionalComponentArgsRest(__VLS_115));
+    const __VLS_121 = __VLS_asFunctionalComponent(__VLS_120, new __VLS_120({}));
+    const __VLS_122 = __VLS_121({}, ...__VLS_functionalComponentArgsRest(__VLS_121));
     ({}({}));
-    const __VLS_119 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_114, __VLS_116));
+    const __VLS_125 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_120, __VLS_122));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("overflow"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_120 = {}
+    const __VLS_126 = {}
         .ObjectPosTab;
     ({}.ObjectPosTab);
     __VLS_components.ObjectPosTab;
     // @ts-ignore
     [ObjectPosTab,];
     // @ts-ignore
-    const __VLS_121 = __VLS_asFunctionalComponent(__VLS_120, new __VLS_120({}));
-    const __VLS_122 = __VLS_121({}, ...__VLS_functionalComponentArgsRest(__VLS_121));
+    const __VLS_127 = __VLS_asFunctionalComponent(__VLS_126, new __VLS_126({}));
+    const __VLS_128 = __VLS_127({}, ...__VLS_functionalComponentArgsRest(__VLS_127));
     ({}({}));
-    const __VLS_125 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_120, __VLS_122));
+    const __VLS_131 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_126, __VLS_128));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("overscroll"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_126 = {}
+    const __VLS_132 = {}
         .OverflowTab;
     ({}.OverflowTab);
     __VLS_components.OverflowTab;
     // @ts-ignore
     [OverflowTab,];
     // @ts-ignore
-    const __VLS_127 = __VLS_asFunctionalComponent(__VLS_126, new __VLS_126({}));
-    const __VLS_128 = __VLS_127({}, ...__VLS_functionalComponentArgsRest(__VLS_127));
+    const __VLS_133 = __VLS_asFunctionalComponent(__VLS_132, new __VLS_132({}));
+    const __VLS_134 = __VLS_133({}, ...__VLS_functionalComponentArgsRest(__VLS_133));
     ({}({}));
-    const __VLS_131 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_126, __VLS_128));
+    const __VLS_137 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_132, __VLS_134));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("position"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_132 = {}
+    const __VLS_138 = {}
         .OverscrollTab;
     ({}.OverscrollTab);
     __VLS_components.OverscrollTab;
     // @ts-ignore
     [OverscrollTab,];
     // @ts-ignore
-    const __VLS_133 = __VLS_asFunctionalComponent(__VLS_132, new __VLS_132({}));
-    const __VLS_134 = __VLS_133({}, ...__VLS_functionalComponentArgsRest(__VLS_133));
+    const __VLS_139 = __VLS_asFunctionalComponent(__VLS_138, new __VLS_138({}));
+    const __VLS_140 = __VLS_139({}, ...__VLS_functionalComponentArgsRest(__VLS_139));
     ({}({}));
-    const __VLS_137 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_132, __VLS_134));
-    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("margin"), });
+    const __VLS_143 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_138, __VLS_140));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("inset"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_138 = {}
+    const __VLS_144 = {}
         .PositionTab;
     ({}.PositionTab);
     __VLS_components.PositionTab;
     // @ts-ignore
     [PositionTab,];
     // @ts-ignore
-    const __VLS_139 = __VLS_asFunctionalComponent(__VLS_138, new __VLS_138({}));
-    const __VLS_140 = __VLS_139({}, ...__VLS_functionalComponentArgsRest(__VLS_139));
+    const __VLS_145 = __VLS_asFunctionalComponent(__VLS_144, new __VLS_144({}));
+    const __VLS_146 = __VLS_145({}, ...__VLS_functionalComponentArgsRest(__VLS_145));
     ({}({}));
-    const __VLS_143 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_138, __VLS_140));
+    const __VLS_149 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_144, __VLS_146));
+    __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("margin"), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
+    // @ts-ignore
+    const __VLS_150 = {}
+        .InsetTab;
+    ({}.InsetTab);
+    __VLS_components.InsetTab;
+    // @ts-ignore
+    [InsetTab,];
+    // @ts-ignore
+    const __VLS_151 = __VLS_asFunctionalComponent(__VLS_150, new __VLS_150({}));
+    const __VLS_152 = __VLS_151({}, ...__VLS_functionalComponentArgsRest(__VLS_151));
+    ({}({}));
+    const __VLS_155 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_150, __VLS_152));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("padding"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.br, __VLS_intrinsicElements.br)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_144 = {}
+    const __VLS_156 = {}
         .MarginTab;
     ({}.MarginTab);
     __VLS_components.MarginTab;
     // @ts-ignore
     [MarginTab,];
     // @ts-ignore
-    const __VLS_145 = __VLS_asFunctionalComponent(__VLS_144, new __VLS_144({}));
-    const __VLS_146 = __VLS_145({}, ...__VLS_functionalComponentArgsRest(__VLS_145));
+    const __VLS_157 = __VLS_asFunctionalComponent(__VLS_156, new __VLS_156({}));
+    const __VLS_158 = __VLS_157({}, ...__VLS_functionalComponentArgsRest(__VLS_157));
     ({}({}));
-    const __VLS_149 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_144, __VLS_146));
+    const __VLS_161 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_156, __VLS_158));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("space-between"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_150 = {}
+    const __VLS_162 = {}
         .PaddingTab;
     ({}.PaddingTab);
     __VLS_components.PaddingTab;
     // @ts-ignore
     [PaddingTab,];
     // @ts-ignore
-    const __VLS_151 = __VLS_asFunctionalComponent(__VLS_150, new __VLS_150({}));
-    const __VLS_152 = __VLS_151({}, ...__VLS_functionalComponentArgsRest(__VLS_151));
+    const __VLS_163 = __VLS_asFunctionalComponent(__VLS_162, new __VLS_162({}));
+    const __VLS_164 = __VLS_163({}, ...__VLS_functionalComponentArgsRest(__VLS_163));
     ({}({}));
-    const __VLS_155 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_150, __VLS_152));
+    const __VLS_167 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_162, __VLS_164));
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("color"), });
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_156 = {}
+    const __VLS_168 = {}
         .SpaceTab;
     ({}.SpaceTab);
     __VLS_components.SpaceTab;
     // @ts-ignore
     [SpaceTab,];
     // @ts-ignore
-    const __VLS_157 = __VLS_asFunctionalComponent(__VLS_156, new __VLS_156({}));
-    const __VLS_158 = __VLS_157({}, ...__VLS_functionalComponentArgsRest(__VLS_157));
+    const __VLS_169 = __VLS_asFunctionalComponent(__VLS_168, new __VLS_168({}));
+    const __VLS_170 = __VLS_169({}, ...__VLS_functionalComponentArgsRest(__VLS_169));
     ({}({}));
-    const __VLS_161 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_156, __VLS_158));
+    const __VLS_173 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_168, __VLS_170));
     __VLS_elementAsFunction(__VLS_intrinsicElements.br, __VLS_intrinsicElements.br)({});
     __VLS_elementAsFunction(__VLS_intrinsicElements.h2, __VLS_intrinsicElements.h2)({});
     // @ts-ignore
-    const __VLS_162 = {}
+    const __VLS_174 = {}
         .ColorTab;
     ({}.ColorTab);
     __VLS_components.ColorTab;
     // @ts-ignore
     [ColorTab,];
     // @ts-ignore
-    const __VLS_163 = __VLS_asFunctionalComponent(__VLS_162, new __VLS_162({}));
-    const __VLS_164 = __VLS_163({}, ...__VLS_functionalComponentArgsRest(__VLS_163));
+    const __VLS_175 = __VLS_asFunctionalComponent(__VLS_174, new __VLS_174({}));
+    const __VLS_176 = __VLS_175({}, ...__VLS_functionalComponentArgsRest(__VLS_175));
     ({}({}));
-    const __VLS_167 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_162, __VLS_164));
+    const __VLS_179 = __VLS_nonNullable(__VLS_pickFunctionalComponentCtx(__VLS_174, __VLS_176));
     if (typeof __VLS_styleScopedClasses === 'object' && !Array.isArray(__VLS_styleScopedClasses)) {
         __VLS_styleScopedClasses['navbar'];
         __VLS_styleScopedClasses['clear'];
@@ -546,6 +574,7 @@ function __VLS_template() {
         __VLS_styleScopedClasses['divider'];
         __VLS_styleScopedClasses['left'];
         __VLS_styleScopedClasses['title'];
+        __VLS_styleScopedClasses['section'];
         __VLS_styleScopedClasses['section'];
         __VLS_styleScopedClasses['section'];
         __VLS_styleScopedClasses['section'];

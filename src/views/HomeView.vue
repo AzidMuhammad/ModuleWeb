@@ -3,7 +3,7 @@
     <div class="navbar clear nav-top">
       <div class="row content">
         <a href="#"><img class="logo" src="@/assets/logo/logo.png"></a>
-        <a class="right" href="https://github.com/ModuluxLabs">
+        <a class="right" href="https://github.com/FuezLabs">
           <img src="../assets/image/github.png">
         </a>
         <a class="hamburger" @click="toggleSidePanel">
@@ -41,6 +41,7 @@
           <a class="section" href="#overflow">Overflow</a>
           <a class="section" href="#overscroll">Overscroll</a>
           <a class="section" href="#position">Position</a>
+          <a class="section" href="#inset">Inset</a>
           <div class="divider left"></div>
           <a class="title" href="#spacing">Spacing</a>
           <a class="section" href="#margin">Margin</a>
@@ -54,34 +55,54 @@
         </div>
         <p id="installation"></p>
         <div class="right-col">
-          <h1>Get Started With Modulux CSS</h1>
+          <h1>Get Started With Fuez CSS</h1>
           <p>
-            Modulux CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
+            Fuez CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.
           </p>
-          <h2>Install Modulux CSS</h2>
+          <h2>Install Fuez CSS</h2>
           <p>
-            Install 'moduluxcss' via NPM.
+            Install 'fuezcss' via NPM.
           </p>
-          <TermCard text="npm install moduluxcss postcss postcss-cli" />
-          <h2>Configure Your Code</h2>
+          <TermCard text="npm install fuezcss postcss postcss-cli
+
+npx fuezcss init" />
+          <h2>Configure Config</h2>
           <p>
-            Create 'postcss.config.cjs' or 'postcss.config.js'.
+            Check 'postcss.config.cjs' and 'fuez.config.js'.
           </p>
-          <TermCard text="module.exports = {
-  plugins: [require('moduluxcss')]
+          <TermCard text="/** postcss.config.cjs **/
+          
+module.exports = {
+    plugins: [
+        require('fuezcss'),
+        require('autoprefixer')
+    ]
 };" />
-          <h2>Add The Modulux CSS Directives</h2>
+<br>
+<TermCard text="/** fuez.config.js **/
+
+module.exports = {
+    theme: {
+        extend: {
+
+        }
+    },
+    plugins: [
+
+    ]
+};" />
+          <h2>Add The Fuez CSS Directives</h2>
           <p>
-            Add the '@moduluxcss' directives to ./index.css.
+            Add the '@fuezcss' directives to ./index.css.
           </p>
-          <TermCard text="@moduluxcss base;
-@moduluxcss layout;
-@moduluxcss utilities;" />
-          <h2>Run Modulux CSS With PostCSS</h2>
+          <TermCard text="@fuezcss base;
+@fuezcss layout;
+@fuezcss utilities;" />
+          <h2>Run Fuez CSS With PostCSS</h2>
           <p>
             Run 'npx postcss' with PostCSS via Terminal.
           </p>
-          <TermCard text="npx postcss src/assets/index.css -o src/assets/modulux.css" />
+          <TermCard text="npx postcss src/assets/index.css -o src/assets/fuez.css" />
           <h2>Run Your Project</h2>
           <p>
             Run your build process with 'npm run dev' or whatever command is configured in your 'package.json' file.
@@ -100,10 +121,10 @@
 <head>
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <link href='/src/style.css' rel='stylesheet'>
+  <link href='/src/fuez.css' rel='stylesheet'>
 </head>
-<body>
-  <h1 class='text-vbig font-strong font-modern-white'>
+<body class='bg-modern-black'>
+  <h1 class='text-base font-strong font-modern-white'>
     Hello world!
   </h1>
 </body>
@@ -174,10 +195,14 @@
           </p>
           <h2>Overscroll</h2>
           <OverscrollTab />
-          <p id="margin">
+          <p id="inset">
           </p>
           <h2>Position</h2>
           <PositionTab />
+          <p id="margin">
+          </p>
+          <h2>Inset</h2>
+          <InsetTab />
           <p id="padding">
           </p>
           <br>
